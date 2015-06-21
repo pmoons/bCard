@@ -1,0 +1,23 @@
+body {
+	background-color: #ecf0f1;
+	font-family: 'Source Sans Pro', sans-serif;
+
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+img {
+
+	/* http://stackoverflow.com/questions/8050056/scale-down-but-not-up-images-using-css-to-fit-div-container-in-ie9-max-width */
+	width: 50%;
+	max-width: 150px;
+
+	border: 4px solid #ecf0f1;
+	border-radius: 50%;
+
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
